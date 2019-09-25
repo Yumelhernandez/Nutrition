@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1BCEB71E638954C1F6A765 /* Pods_NutritionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2C268B62DABB14613DB17 /* Pods_NutritionTests.framework */; };
+		5508159F223F6C57002EB05C /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5508159E223F6C57002EB05C /* userProfileViewController.swift */; };
 		5551A1DD223D994E00DDDCAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551A1DC223D994E00DDDCAB /* AppDelegate.swift */; };
 		5551A1DF223D994E00DDDCAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551A1DE223D994E00DDDCAB /* ViewController.swift */; };
 		5551A1E2223D994E00DDDCAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5551A1E0223D994E00DDDCAB /* Main.storyboard */; };
@@ -14,6 +16,21 @@
 		5551A1E7223D995300DDDCAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5551A1E5223D995300DDDCAB /* LaunchScreen.storyboard */; };
 		5551A1F2223D995400DDDCAB /* NutritionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551A1F1223D995400DDDCAB /* NutritionTests.swift */; };
 		5551A1FD223D995400DDDCAB /* NutritionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551A1FC223D995400DDDCAB /* NutritionUITests.swift */; };
+		5551A20B223D9B4200DDDCAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5551A20A223D9B4200DDDCAB /* GoogleService-Info.plist */; };
+		5551A20D223DACD700DDDCAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5551A20C223DACD700DDDCAB /* GoogleService-Info.plist */; };
+		5551A217223DFEA700DDDCAB /* UserSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551A216223DFEA700DDDCAB /* UserSignInViewController.swift */; };
+		5551A219223DFEEA00DDDCAB /* NutritionistSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551A218223DFEEA00DDDCAB /* NutritionistSignInViewController.swift */; };
+		555B5945223ECA46008D6C08 /* SignUpModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B5944223ECA46008D6C08 /* SignUpModalViewController.swift */; };
+		555B5947223ECCAA008D6C08 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B5946223ECCAA008D6C08 /* DesignableView.swift */; };
+		5584F024224FE60000570014 /* NutriChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584F023224FE60000570014 /* NutriChatViewController.swift */; };
+		5584F027224FEE9B00570014 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584F026224FEE9B00570014 /* MessagesCell.swift */; };
+		5584F0292250217D00570014 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584F0282250217D00570014 /* User.swift */; };
+		5584F02B22506CE400570014 /* NutritionistTexting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584F02A22506CE400570014 /* NutritionistTexting.swift */; };
+		5594EFD522426ACB00A0AF2E /*  chatAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594EFD422426ACB00A0AF2E /*  chatAppViewController.swift */; };
+		5594EFD722443A8D00A0AF2E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594EFD622443A8D00A0AF2E /* Message.swift */; };
+		5594EFD9224448C600A0AF2E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594EFD8224448C600A0AF2E /* Extensions.swift */; };
+		64ED0A5531A9EFDD68D91669 /* Pods_NutritionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0E122647192DD181CB430F /* Pods_NutritionUITests.framework */; };
+		E7AC472309281D4790392C8D /* Pods_Nutrition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1675CD0FE094595ECDE95A2D /* Pods_Nutrition.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1675CD0FE094595ECDE95A2D /* Pods_Nutrition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203F5D65681FBC087F25A406 /* Pods-NutritionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutritionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NutritionTests/Pods-NutritionTests.release.xcconfig"; sourceTree = "<group>"; };
+		29F90B099085BB94E9AAD728 /* Pods-NutritionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutritionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NutritionUITests/Pods-NutritionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31ADB505C53B47BA81FCD739 /* Pods-NutritionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutritionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NutritionUITests/Pods-NutritionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5508159E223F6C57002EB05C /* userProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
+		5528F163225935AD0071D35E /* Nutrition-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nutrition-Bridging-Header.h"; sourceTree = "<group>"; };
 		5551A1D9223D994E00DDDCAB /* Nutrition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5551A1DC223D994E00DDDCAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5551A1DE223D994E00DDDCAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,25 @@
 		5551A1F8223D995400DDDCAB /* NutritionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5551A1FC223D995400DDDCAB /* NutritionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionUITests.swift; sourceTree = "<group>"; };
 		5551A1FE223D995400DDDCAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5551A20A223D9B4200DDDCAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5551A20C223DACD700DDDCAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5551A216223DFEA700DDDCAB /* UserSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignInViewController.swift; sourceTree = "<group>"; };
+		5551A218223DFEEA00DDDCAB /* NutritionistSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionistSignInViewController.swift; sourceTree = "<group>"; };
+		555B5944223ECA46008D6C08 /* SignUpModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModalViewController.swift; sourceTree = "<group>"; };
+		555B5946223ECCAA008D6C08 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		557ABE8C225E382200ACF0A9 /* Nutrition.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nutrition.entitlements; sourceTree = "<group>"; };
+		5584F023224FE60000570014 /* NutriChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriChatViewController.swift; sourceTree = "<group>"; };
+		5584F026224FEE9B00570014 /* MessagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
+		5584F0282250217D00570014 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5584F02A22506CE400570014 /* NutritionistTexting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionistTexting.swift; sourceTree = "<group>"; };
+		5594EFD422426ACB00A0AF2E /*  chatAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " chatAppViewController.swift"; sourceTree = "<group>"; };
+		5594EFD622443A8D00A0AF2E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5594EFD8224448C600A0AF2E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5CF2F39E8E51B41CFE746074 /* Pods-Nutrition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nutrition/Pods-Nutrition.debug.xcconfig"; sourceTree = "<group>"; };
+		5D95F4D59906CA8792D63AA6 /* Pods-NutritionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutritionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NutritionTests/Pods-NutritionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66A2C268B62DABB14613DB17 /* Pods_NutritionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutritionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0E122647192DD181CB430F /* Pods_NutritionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutritionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4654C38FD327260DB3593FA /* Pods-Nutrition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nutrition/Pods-Nutrition.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AC472309281D4790392C8D /* Pods_Nutrition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A1BCEB71E638954C1F6A765 /* Pods_NutritionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64ED0A5531A9EFDD68D91669 /* Pods_NutritionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +126,8 @@
 				5551A1F0223D995400DDDCAB /* NutritionTests */,
 				5551A1FB223D995400DDDCAB /* NutritionUITests */,
 				5551A1DA223D994E00DDDCAB /* Products */,
+				A5D607725F2CE65A00D8C6D3 /* Pods */,
+				EBB1834FD03C5F9A16F2D24A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +144,20 @@
 		5551A1DB223D994E00DDDCAB /* Nutrition */ = {
 			isa = PBXGroup;
 			children = (
+				557ABE8C225E382200ACF0A9 /* Nutrition.entitlements */,
+				555B5948223ECCBE008D6C08 /* IBDesignable */,
 				5551A1DC223D994E00DDDCAB /* AppDelegate.swift */,
 				5551A1DE223D994E00DDDCAB /* ViewController.swift */,
+				555B5944223ECA46008D6C08 /* SignUpModalViewController.swift */,
+				5551A216223DFEA700DDDCAB /* UserSignInViewController.swift */,
+				5551A218223DFEEA00DDDCAB /* NutritionistSignInViewController.swift */,
+				5508159E223F6C57002EB05C /* userProfileViewController.swift */,
+				5584F025224FEE2D00570014 /* Messages */,
 				5551A1E0223D994E00DDDCAB /* Main.storyboard */,
+				5594EFD8224448C600A0AF2E /* Extensions.swift */,
 				5551A1E3223D995300DDDCAB /* Assets.xcassets */,
 				5551A1E5223D995300DDDCAB /* LaunchScreen.storyboard */,
+				5551A20C223DACD700DDDCAB /* GoogleService-Info.plist */,
 				5551A1E8223D995300DDDCAB /* Info.plist */,
 			);
 			path = Nutrition;
@@ -121,8 +177,54 @@
 			children = (
 				5551A1FC223D995400DDDCAB /* NutritionUITests.swift */,
 				5551A1FE223D995400DDDCAB /* Info.plist */,
+				5551A20A223D9B4200DDDCAB /* GoogleService-Info.plist */,
 			);
 			path = NutritionUITests;
+			sourceTree = "<group>";
+		};
+		555B5948223ECCBE008D6C08 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				555B5946223ECCAA008D6C08 /* DesignableView.swift */,
+			);
+			path = IBDesignable;
+			sourceTree = "<group>";
+		};
+		5584F025224FEE2D00570014 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				5584F0282250217D00570014 /* User.swift */,
+				5584F026224FEE9B00570014 /* MessagesCell.swift */,
+				5584F023224FE60000570014 /* NutriChatViewController.swift */,
+				5584F02A22506CE400570014 /* NutritionistTexting.swift */,
+				5594EFD622443A8D00A0AF2E /* Message.swift */,
+				5594EFD422426ACB00A0AF2E /*  chatAppViewController.swift */,
+				5528F163225935AD0071D35E /* Nutrition-Bridging-Header.h */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		A5D607725F2CE65A00D8C6D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2F39E8E51B41CFE746074 /* Pods-Nutrition.debug.xcconfig */,
+				F4654C38FD327260DB3593FA /* Pods-Nutrition.release.xcconfig */,
+				5D95F4D59906CA8792D63AA6 /* Pods-NutritionTests.debug.xcconfig */,
+				203F5D65681FBC087F25A406 /* Pods-NutritionTests.release.xcconfig */,
+				29F90B099085BB94E9AAD728 /* Pods-NutritionUITests.debug.xcconfig */,
+				31ADB505C53B47BA81FCD739 /* Pods-NutritionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBB1834FD03C5F9A16F2D24A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1675CD0FE094595ECDE95A2D /* Pods_Nutrition.framework */,
+				66A2C268B62DABB14613DB17 /* Pods_NutritionTests.framework */,
+				AC0E122647192DD181CB430F /* Pods_NutritionUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5551A201223D995400DDDCAB /* Build configuration list for PBXNativeTarget "Nutrition" */;
 			buildPhases = (
+				0497576D423DA2FB489CBED3 /* [CP] Check Pods Manifest.lock */,
 				5551A1D5223D994E00DDDCAB /* Sources */,
 				5551A1D6223D994E00DDDCAB /* Frameworks */,
 				5551A1D7223D994E00DDDCAB /* Resources */,
+				E06D142914742F71BB6EAB12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5551A204223D995400DDDCAB /* Build configuration list for PBXNativeTarget "NutritionTests" */;
 			buildPhases = (
+				8158618E02BFBC4CDFF77CA1 /* [CP] Check Pods Manifest.lock */,
 				5551A1E9223D995400DDDCAB /* Sources */,
 				5551A1EA223D995400DDDCAB /* Frameworks */,
 				5551A1EB223D995400DDDCAB /* Resources */,
@@ -167,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5551A207223D995400DDDCAB /* Build configuration list for PBXNativeTarget "NutritionUITests" */;
 			buildPhases = (
+				1FF6F3E20B56819AD340B6C9 /* [CP] Check Pods Manifest.lock */,
 				5551A1F4223D995400DDDCAB /* Sources */,
 				5551A1F5223D995400DDDCAB /* Frameworks */,
 				5551A1F6223D995400DDDCAB /* Resources */,
@@ -193,6 +299,24 @@
 				TargetAttributes = {
 					5551A1D8223D994E00DDDCAB = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					5551A1EC223D995400DDDCAB = {
 						CreatedOnToolsVersion = 10.1;
@@ -231,6 +355,7 @@
 			files = (
 				5551A1E7223D995300DDDCAB /* LaunchScreen.storyboard in Resources */,
 				5551A1E4223D995300DDDCAB /* Assets.xcassets in Resources */,
+				5551A20D223DACD700DDDCAB /* GoogleService-Info.plist in Resources */,
 				5551A1E2223D994E00DDDCAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,18 +371,130 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5551A20B223D9B4200DDDCAB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0497576D423DA2FB489CBED3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nutrition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FF6F3E20B56819AD340B6C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NutritionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8158618E02BFBC4CDFF77CA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NutritionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06D142914742F71BB6EAB12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nutrition/Pods-Nutrition-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/SendBirdSDK/SendBirdSDK.framework",
+				"${PODS_ROOT}/SendBirdSDK/SendBirdSDK.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendBirdSDK.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/SendBirdSDK.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nutrition/Pods-Nutrition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5551A1D5223D994E00DDDCAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5584F0292250217D00570014 /* User.swift in Sources */,
+				5551A219223DFEEA00DDDCAB /* NutritionistSignInViewController.swift in Sources */,
+				5584F027224FEE9B00570014 /* MessagesCell.swift in Sources */,
 				5551A1DF223D994E00DDDCAB /* ViewController.swift in Sources */,
+				555B5947223ECCAA008D6C08 /* DesignableView.swift in Sources */,
+				5594EFD722443A8D00A0AF2E /* Message.swift in Sources */,
+				5551A217223DFEA700DDDCAB /* UserSignInViewController.swift in Sources */,
+				5594EFD9224448C600A0AF2E /* Extensions.swift in Sources */,
 				5551A1DD223D994E00DDDCAB /* AppDelegate.swift in Sources */,
+				5508159F223F6C57002EB05C /* userProfileViewController.swift in Sources */,
+				5594EFD522426ACB00A0AF2E /*  chatAppViewController.swift in Sources */,
+				555B5945223ECA46008D6C08 /* SignUpModalViewController.swift in Sources */,
+				5584F024224FE60000570014 /* NutriChatViewController.swift in Sources */,
+				5584F02B22506CE400570014 /* NutritionistTexting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,16 +667,21 @@
 		};
 		5551A202223D995400DDDCAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF2F39E8E51B41CFE746074 /* Pods-Nutrition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y86EELPH5V;
 				INFOPLIST_FILE = Nutrition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yumel.Nutrition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumelpascual.Nutrition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nutrition/Messages/Nutrition-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,16 +689,20 @@
 		};
 		5551A203223D995400DDDCAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4654C38FD327260DB3593FA /* Pods-Nutrition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y86EELPH5V;
 				INFOPLIST_FILE = Nutrition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yumel.Nutrition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumelpascual.Nutrition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nutrition/Messages/Nutrition-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +710,7 @@
 		};
 		5551A205223D995400DDDCAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D95F4D59906CA8792D63AA6 /* Pods-NutritionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +731,7 @@
 		};
 		5551A206223D995400DDDCAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203F5D65681FBC087F25A406 /* Pods-NutritionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +752,7 @@
 		};
 		5551A208223D995400DDDCAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F90B099085BB94E9AAD728 /* Pods-NutritionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +772,7 @@
 		};
 		5551A209223D995400DDDCAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31ADB505C53B47BA81FCD739 /* Pods-NutritionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
